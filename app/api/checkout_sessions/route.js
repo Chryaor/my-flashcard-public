@@ -4,7 +4,7 @@ import Stripe from 'stripe'
 const formatAmountForStripe = (amount, currency) => {
     return Math.round(amount * 100)
    }
-const stripe = new Stripe('sk_test_51PpW2MCmmJ0OIZdXpDwcqhvMhmTGzpk2icJzSW66ECUa4nOjuGVhojbx3G7QBPZlAlCNvrioJuK3VHC5UiIJeRIg00oCpQSTIf'
+const stripe = new Stripe('your stripe private '
   //,{apiVersion: '2022-11-15'}, //check this....
 )
 
